@@ -1,5 +1,5 @@
 const test = () => {
-  console.log('dynamodb packages');
+  console.log('it is common packages');
 };
 
 export { test };
