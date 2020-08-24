@@ -2,6 +2,7 @@
   "compilerOptions": {
     "strict": true,
     "sourceMap": true,
+    "skipLibCheck": true,
     "alwaysStrict": true,
     "noImplicitAny": true,
     "noImplicitThis": true,
