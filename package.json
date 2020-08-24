@@ -4,6 +4,7 @@
   "description": "Todo application toolchain",
   "license": "MIT",
   "repository": "minidonut/adaptive-todo",
+  "private": true,
   "author": {
     "name": "Karl Saehun Chung",
     "email": "nycom13@gmail.com"
@@ -22,6 +23,9 @@
     "ts-node": "^9.0.0",
     "typescript": "^4.0.2"
   },
+  "workspaces": [
+    "packages": "packages/*"
+  ],
   "keywords": [
     "todo",
     "typescript"
