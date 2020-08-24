@@ -28,6 +28,8 @@
   ],
   "keywords": [
     "todo",
-    "typescript"
+    "typescript",
+    "toolchain",
+    "cli"
   ]
 }

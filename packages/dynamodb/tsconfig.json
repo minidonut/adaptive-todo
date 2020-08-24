@@ -1,9 +1,11 @@
 {
   "extends": "../../tsconfig.json",
-  "outDir": "dist",
-  "declaration": true,
-  "sourceMap": false,
-  "include": [
-    "src/**/*"
-  ]
+  "compileroptions": {
+    "target": "es6",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "rootDir": "src",
+    "outDir": "dist",
+    "declaration": true
+  }
 }
